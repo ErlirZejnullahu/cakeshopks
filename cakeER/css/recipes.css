@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	font-family: font-family: 'Recursive', sans-serif;;
+}
+
+body{
+	background-color: lightblue;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #368fb0; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #76bcd5; 
+}
+
+
+.navbar{
+	background-color: lightblue;
+}
+
+.nav-link{
+	color: black;
+
+}
+
+
+ nav ul li {
+	display: inline;
+	padding-left: 3vh;
+	text-decoration: none;
+	font-family: 'Recursive', sans-serif;
+	
+	
+}
+	
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 3vh;
+	font-weight: normal;
+}
+
+ul{
+	margin-left: 25vh;
+	padding-top: 2%;
+}
+
+
+.header-title{
+text-align: center;
+ color:#3ca1c3;
+}
+
+.logo{
+	width: 120px; 
+	height: 130px; 
+	margin-left: 5%; 
+}
+
+
+.img{
+	width: 100%;
+}
+
+.card-body{
+	width: 60%; 
+	height: 80%; 
+	margin-top: 10%; 
+	margin-left: 20%;
+}
+
+.image{
+	width: 100%; 
+	height:100%; 
+}
+
+.image2{
+	width: 100%; 
+	height:100%; 
+
+}
+
+.card{
+	background-color: lightblue;
+}
+
+
+
+
+
+.footer{
+	background-color: #8ac7db;
+	padding: 2rem 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer .footer-site-logo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.footer .nav-links {
+    padding: 0;
+    margin: 0;
+}
+
+.footer .nav-links li {
+    display: inline-block;
+}
+
+.footer .nav-links li a {
+    padding: 10px;
+    color: #000;
+}
+
+.footer .social ul li.in a {
+    color: #df588a;
+}
+
+.footer .nav-socials{
+	display: flex;
+}
+
+.footer .nav-socials {
+    padding: 0;
+    margin-left: 40vh;
+}
+
+.footer .nav-socials li {
+    display: inline-block;
+}
+
+.footer .nav-socials li a {
+    padding: 10px;
+    color: #000;
+}
+
+.footer-logo{
+	width: 120px; 
+	height: 120px; 
+}
+
+
+@media only screen and (max-width: 900px){
+.footer .social ul li .in a {
+    color: #df588a;
+}
+
+.footer .nav-socials{
+	display: flex;
+}
+
+.footer .nav-socials {
+    padding: 0;
+    margin-left: 25vh;
+}
+
+.footer .nav-socials li {
+    display: inline-block;
+}
+
+.footer .nav-socials li a {
+    padding: 5px;
+    color: #000;
+}
+
+.footer-logo{
+	width: 120px; 
+	height: 100px; 
+}
+}
